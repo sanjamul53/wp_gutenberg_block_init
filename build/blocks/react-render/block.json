@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gtxb5/react-render",
+  "title": "Me - React Render",
+  "category": "text",
+  "icon": "table-col-after",
+  "description": "React Render - Count with Limit",
+  "keywords": [
+    "quiz",
+    "answer"
+  ],
+  "version": "1",
+  "textdomain": "gtxb5",
+  "editorScript": "file:./admin.js",
+  "viewScript": [
+    "file:./client.js",
+    "example-shared-view-script"
+  ],
+  "style": "file:./index.css",
+  "attributes": {
+    "countLimit": {
+      "type": "number"
+    }
+  }
+}

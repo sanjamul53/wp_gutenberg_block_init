@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gtxb5/server-render",
+  "title": "Me - Server Render",
+  "category": "widgets",
+  "description": "Adds a search form",
+  "keywords": [
+    "search form"
+  ],
+  "version": "1",
+  "textdomain": "gtxb5",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "bgColor": {
+      "type": "string",
+      "default": "#f87171"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "#fff"
+    }
+  },
+  "style": "file:./index.css"
+}

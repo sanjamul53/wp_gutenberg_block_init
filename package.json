@@ -1,0 +1,15 @@
+{
+  "name": "block_client_render",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+   "start": "wp-scripts start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@wordpress/scripts": "^27.9.0"
+  }
+}
